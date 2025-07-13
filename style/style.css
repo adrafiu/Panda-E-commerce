@@ -1,0 +1,48 @@
+* {
+  box-sizing: border-box;
+}
+
+/* container */
+.container {
+  max-width: 1280px;
+  margin: auto;
+}
+
+/* nav section */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.nav-items {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+}
+.nav-items li a {
+  text-decoration: none;
+  color: rgb(112, 112, 112);
+  font-weight: 600px;
+  font-size: 16px;
+}
+
+/* search section */
+
+.search-parent {
+  position: relative;
+  color: rgb(186, 186, 186);
+}
+.search-parent input {
+  background-color: rgb(241, 241, 241);
+  border-radius: 66px;
+  width: 500px;
+  padding: 15px 30px;
+  border: none;
+}
+.search-parent i {
+  position: absolute;
+  top: 17px;
+  right: 20px;
+}
+
+/* banner section */
